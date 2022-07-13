@@ -51,4 +51,5 @@ minimal_jump_graph.o: minimal_jump_graph.h
 pattern_avoidance.o: pattern_avoidance.h
 
 clean:
+	$(MAKE) clean -C patternavoidance
 	rm -f write_123_bijection write_123_formula write_1234_formula write_algorithm_j write_avoiders write_avoiders_count write_degree_one_vertices write_even_odd_count write_min_jumps write_results *.o
