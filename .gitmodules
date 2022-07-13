@@ -1,0 +1,3 @@
+[submodule "patternavoidance"]
+	path = patternavoidance
+	url = https://github.com/williamkuszmaul/patternavoidance
