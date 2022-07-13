@@ -1,1 +1,5 @@
-# minimal-jump-graph
+# Abstract
+
+For permutations a combinatorial Gray code, i.e. exhaustive generation with small changes between consecutive objects, can be given by minimal jumps. Exhaustive generation of a set of pattern-avoiding permutations with minimal jumps can be formulated as a Hamiltonian cycle/path problem. Such a minimal jump graph is known to have a Hamiltonian path if none of the avoiding patterns have the largest entry at the leftmost or rightmost position.
+
+We show that reversal is an isomorphism on minimal jump graphs and thereby reduce the number of graphs that have to be considered by half. Then we compute small minimal jump graphs avoiding patterns up to length 4 that have the largest entry at the leftmost or rightmost position and test them for Hamiltonicity. In doing so we present simple reasons why many sufficiently large minimal jump graphs have no Hamiltonian cycle or path. We also examine unbalanced bipartitions in the minimal jump graph when avoiding the increasing pattern because they can be used to prove that there is no Hamiltonian path.
